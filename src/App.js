@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-
+import Menu from './Menu';
 function App() {
   return (
     <div className="App">
@@ -14,7 +14,9 @@ function App() {
           href="https://reactjs.org"
           target="_blank"
           rel="noopener noreferrer"
-        >
+
+          >
+          <Menu/>
           Learn React
         </a>
       </header>
