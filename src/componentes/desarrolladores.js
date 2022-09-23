@@ -1,6 +1,6 @@
 import React from "react";
 import './App.css';
-import avatar from './img/Avatar.png';
+import avatar from './Componentes/img/Avatar.png';
 
 
  class Desarrolladores extends React.Component{
