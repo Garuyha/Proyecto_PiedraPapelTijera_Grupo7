@@ -1,0 +1,104 @@
+
+body
+{
+
+ background-color: rgb(238, 238, 237);
+ margin-top: 11%;
+ margin-bottom: 4%;
+}
+
+
+.informacion
+{
+
+  padding: 3%;
+  font-size: 19;
+  color: rgb(10, 10, 10);
+  justify-content: right;
+  text-align: center;
+  
+}
+
+
+
+
+
+  .redes
+  {
+
+    margin-top: 7%;
+    justify-content: center;
+    display: flex;
+    gap: 30px;
+  }
+
+
+
+
+
+
+  .contenedorboton
+  {
+
+    width: 108% ;
+    display: grid;
+    margin-left: 44%;
+    margin-top: 2%;
+    grid-template-columns: repeat(10,1fr);
+    gap: 40px;
+    
+  }
+
+
+
+
+  .boton
+ {
+    align-items: center;
+    justify-content: center;
+    display: inline-flex;
+    width: 100%;
+    height: 40px;
+    background-color: rgb(0, 0, 0);
+    color: rgb(253, 247, 247);
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+    transition: .3s ease all;
+  }
+
+   
+   
+    .boton:hover
+    {
+
+     background-color: brown;
+
+    }
+
+  
+
+    .seccion1
+    {
+     display: flex;
+     margin-top: 11%;
+     gap: 164px;
+     justify-content: center;
+    }
+
+
+    .seccion2
+    {
+      display: flex;
+      justify-content: center;
+      gap: 164px;
+    }
+
+
+
+    .derechos
+   {
+      text-align: center;
+      margin-top: 7%;
+   
+    }
