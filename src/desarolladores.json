@@ -1,0 +1,34 @@
+{
+"desarrolladores":[
+{
+    "img":"img1",
+"nombre": "Ezequiel Alejandro Garcia" ,
+"dni": "41.401.187",
+"lu": "lu1"
+},
+{
+    "img":"img2",
+    "nombre": "Carolina Maria de los Angeles Cortez" ,
+    "dni": "44.812.374",
+    "lu": "TUV000415"
+    },
+    { 
+        "img":"img3",
+        "nombre": "Héctor Ivan Diaz" ,
+        "dni": "37.304.786",
+        "lu":"TUV000440"
+        },
+        {
+            "img":"img4",
+            "nombre": "Hernan Enrique Arias Mercado",
+            "dni": "36.225.750",
+            "lu": "TUV000004"
+            },
+            {
+                "img":"img5",
+                "nombre": "Valeria Emilia Caballero" ,
+                "dni": "43.139.319",
+                "lu": "TUV000055"
+                }
+]
+}
