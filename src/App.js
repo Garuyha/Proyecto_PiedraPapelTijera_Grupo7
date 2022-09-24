@@ -4,10 +4,15 @@ import './Componentes/css/style.css'
 
 function App() {
   return (
-    <header className='PPP'>
+    <div>
+      <header className='PPP'>
         Piedra, Papel o Tijera
-    </header>
-
+      </header>
+      
+      <footer> 
+       © 2022 Mate Cebado Inc. | All rights reserved.            
+      </footer>
+    </div>
   );
 }
 
