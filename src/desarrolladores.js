@@ -15,17 +15,17 @@ render (){
     
     
     return  <div>
-
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
 
           <div className="seccion1">
 
               <section className="informacion"> 
      
                  <img  src={avatar} width="150"/>
-                 <h3> <strong> Diaz Hector Ivan</strong></h3>
+                 <h3> <strong> {this.props.nombre}</strong></h3>
                  <h2> <strong> Programador</strong> </h2>
-                 <p> DNI:37304786 </p>
-                 <p> LU:37304786  </p>
+                 <p> {this.props.dni} </p>
+                 <p> {this.props.lu} </p>
 
               </section>
 
@@ -34,10 +34,10 @@ render (){
               <section className="informacion"> 
 
               <img  src={avatar} width="150"/>
-              <h3> <strong> Ezequiel Garcia</strong> </h3>
+              <h3> <strong> {this.props.nombre}</strong> </h3>
               <h2> <strong> Programador   </strong>  </h2>
-              <p> DNI:37304786 </p>
-              <p> LU:37304786  </p>
+              <p> {this.props.dni} </p>
+              <p> {this.props.lu} </p>
 
                </section>
 
@@ -48,10 +48,10 @@ render (){
              <section className="informacion"> 
 
                < img  src={avatar} width="150"/>
-              <h3> <strong>  Carolina Cortez </strong> </h3>
+              <h3> <strong>  {this.props.nombre} </strong> </h3>
               <h2> <strong> Programadora </strong>   </h2>
-              <p> DNI:37304786 </p>
-              <p> LU:37304786  </p>
+              <p> {this.props.dni} </p>
+              <p> {this.props.lu}  </p>
 
             </section>
 
@@ -65,20 +65,20 @@ render (){
 
             <section className="informacion"> 
                 < img  src={avatar} width="150"/>
-                <h3> <strong> Henrique Arias</strong> </h3>
+                <h3> <strong> {this.props.nombre}</strong> </h3>
                 <h2> <strong> Programador  </strong> </h2>
-                <p> DNI:37304786 </p>
-                <p> LU:37304786  </p>
+                <p> {this.props.dni} </p>
+                <p> {this.props.lu}  </p>
 
               </section>
 
 
             <section className="informacion"> 
                < img  src={avatar} width="150"/>
-               <h3> <strong> Valeria Caballero</strong></h3>
+               <h3> <strong> {this.props.nombre}</strong></h3>
                <h2> <strong> Programadora   </strong></h2>
-               <p> DNI:37304786 </p>
-               <p> LU:37304786  </p>
+               <p> {this.props.dni} </p>
+               <p> {this.props.lu}  </p>
             </section>
 
 
@@ -96,7 +96,7 @@ render (){
        
       
             </div>
-            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+           
 <div>
 
 <div class="media">
@@ -108,10 +108,10 @@ render (){
                     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                         <div class="navbar-nav">
                             <a class="btn btn-block btn-social btn-twitter" style="display: flex ; justify-content:flex-end">
-                                <a href="#" class="fa fa-facebook"></a>
-                                <a href="#" class="fa fa-twitter"></a>
-                                <a href="#" class="fa fa-instagram"></a>
-                                <a href="#" class="fa fa-whatsapp"></a>
+                                <a href="https://www.facebook.com/" class="fa fa-facebook"></a>
+                                <a href="https://twitter.com/?lang=es" class="fa fa-twitter"></a>
+                                <a href="https://www.instagram.com/" class="fa fa-instagram"></a>
+                                <a href="https://www.whatsapp.com/?lang=es" class="fa fa-whatsapp"></a>
                             </a>
 
                         </div>
