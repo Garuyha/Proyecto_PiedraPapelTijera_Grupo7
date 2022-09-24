@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-import Desarrolladores from './Componentes/desarrolladores';
+import Desarrolladores from './desarrolladores';
 
 function App() {
   return (
