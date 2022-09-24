@@ -1,6 +1,7 @@
 import React from "react";
 import './css/style.css'
 import Home from './img/home.jpeg'
+import BtnD from "./BtnD";
 
 
  class Homes extends React.Component{
@@ -16,10 +17,14 @@ render (){
                 </div>
             <section className="botones">
                 <div>
-                    <button>Jugar</button>
+                    <button>
+                        Jugar
+                        </button>
                 </div>
                 <div>
-                    <button>Desarrolladores</button>
+                    <button>
+                        <BtnD/>
+                    </button>
                 </div>
             </section>
             </div>
