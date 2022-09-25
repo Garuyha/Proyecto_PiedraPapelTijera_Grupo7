@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import Opcion from "./Opcion";
 import { Resultado } from "./Resultado";
-import './Juego.css';
-import Btn from "./Componentes/Btn";
+import './css/Juego.css';
+import Btn from "./Btn";
 
 export function Juego(){
     const[eleccionJugador,setEleccionJugador] = useState({});
@@ -54,9 +54,11 @@ export function Juego(){
                     <div className="eleccionMaquina">{eleccionMaquina.eleccion}</div>
                 </section>
             </main>
+            <footer className="btn">
             <div className = "botonMenu">
                 <Btn/>
             </div>
+            </footer>
         </div>
     );
 }
