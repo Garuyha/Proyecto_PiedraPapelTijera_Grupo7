@@ -1,8 +1,6 @@
-
-import './App.css';
 import './Componentes/css/style.css'
 import Homes from './Componentes/home';
-import { Juego } from './Juego';
+import { Juego } from './Componentes/Juego';
 import Desarrolladores from './Componentes/desarrolladores';
 import { Routes, Route } from "react-router-dom";
 
