@@ -2,6 +2,7 @@
 import './App.css';
 import './Componentes/css/style.css'
 import Homes from './Componentes/home';
+import { Juego } from './Juego';
 import Desarrolladores from './Componentes/desarrolladores';
 import { Routes, Route } from "react-router-dom";
 
@@ -14,6 +15,7 @@ function App() {
       </header>
       <Routes>
         <Route path="/" element={<Homes />} />
+        <Route path="/juego" element={<Juego />} />
         <Route path="/desarrolladores" element={<Desarrolladores />} />
       </Routes>
       <footer> 

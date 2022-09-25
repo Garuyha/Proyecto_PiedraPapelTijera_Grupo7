@@ -1,6 +1,5 @@
 import React from "react";
 import Btn from "./Btn";
-import './css/cssIvan.css';
 import './css/style.css'
 import avatar from './img/Avatar.png';
 
