@@ -2,7 +2,7 @@ import React from "react";
 
 const Opcion = (props)=>{
     return(
-        <div className="opcion">
+        <div className="opcion" onClick={props.elegir}>
             {props.valor.eleccion}
         </div>
     )
