@@ -1,4 +1,5 @@
 import React from "react";
+import Btn from "./Btn";
 import './css/cssIvan.css';
 import './css/style.css'
 import avatar from './img/Avatar.png';
@@ -87,10 +88,13 @@ render (){
             <div className='botones'>
       
   
-              <button className="boton"> <span>Inicio</span>   </button>
+              <button className="boton"> <Btn/>   </button>
        
       
             </div>
+            <a href="https://www.facebook.com/react/" className="fa fa-facebook"></a>
+            <a href="#" class="fa fa-twitter"></a>
+            <a href="#" className="fa fa-instagram"></a>
 
 </div>
 

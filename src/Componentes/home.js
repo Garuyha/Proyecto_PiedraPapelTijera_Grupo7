@@ -1,7 +1,7 @@
 import React from "react";
 import './css/style.css'
 import Home from './img/home.jpeg'
-import BtnD from "./BtnD";
+import Btn from "./Btn";
 
 
  class Homes extends React.Component{
@@ -16,16 +16,7 @@ render (){
                     <img src={Home} alt="" className="image"/>
                 </div>
             <section className="botones">
-                <div>
-                    <button>
-                        Jugar
-                        </button>
-                </div>
-                <div>
-                    <button>
-                        <BtnD/>
-                    </button>
-                </div>
+                <Btn/>
             </section>
             </div>
         </div>
