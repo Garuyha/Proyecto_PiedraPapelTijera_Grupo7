@@ -1,23 +1,26 @@
-import logo from './logo.svg';
+
 import './App.css';
+import './Componentes/css/style.css'
+import Homes from './Componentes/home';
+import { Juego } from './Juego';
+import Desarrolladores from './Componentes/desarrolladores';
+import { Routes, Route } from "react-router-dom";
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+    <div>
+      <header className='PPP'>
+        Piedra, Papel o Tijera
       </header>
+      <Routes>
+        <Route path="/" element={<Homes />} />
+        <Route path="/juego" element={<Juego />} />
+        <Route path="/desarrolladores" element={<Desarrolladores />} />
+      </Routes>
+      <footer> 
+       © 2022 Mate Cebado Inc. | All rights reserved.            
+      </footer>
     </div>
   );
 }

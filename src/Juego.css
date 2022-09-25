@@ -1,0 +1,57 @@
+.opciones{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    justify-items: center;
+}
+
+.opcion{
+    font-size: 20px;
+    border: 3px solid black;
+    border-radius: 10%;
+    padding: 6px;
+    cursor: pointer;
+    background-color: black;
+    color: gold;
+    margin: 10px 0px 0px 0px;    
+}
+.opcion:hover{
+    background-color: white;
+}
+
+.resultado{
+    color: red;
+    background-color: black;
+    position:absolute;
+    left: 40%;
+    padding: 10px;
+    
+}
+
+.Contenedor{    
+    background-color: rgb(255, 238, 195);;
+}
+
+.tarjetaContenedor{    
+    display: flex;
+    justify-content: space-around;
+    margin: 5px;
+}
+.tarjetaJugador{    
+    display: grid;
+    justify-items: center;
+    background-color: blue;
+    color: white;
+    padding: 20px;
+}
+.tarjetaMaquina{    
+    display: grid;
+    justify-items: center;
+    background-color: red;
+    color: black;
+    padding: 20px;
+}
+
+.botonMenu{
+    position: relative;
+    left: 45%;
+}
