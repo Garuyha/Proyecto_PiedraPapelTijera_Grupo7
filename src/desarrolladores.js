@@ -12,7 +12,7 @@ render (){
 
     
     
-    return  <div>
+    return  <body>
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"></link>
 
@@ -54,9 +54,9 @@ render (){
             </div>
 
             <a href="#" class="fa fa-facebook"></a>
-<a href="#" class="fa fa-twitter"></a>
-<a href="#" class="fa fa-whatsapp"></a>
-<a href="#" class="fa fa-instagram"></a>
+            <a href="#" class="fa fa-twitter"></a>
+            <a href="#" class="fa fa-whatsapp"></a>
+            <a href="#" class="fa fa-instagram"></a>
 
         <section className="derechos">
 
@@ -66,7 +66,7 @@ render (){
 
         </section> */}
 
-</div>
+</body>
 
     
 
