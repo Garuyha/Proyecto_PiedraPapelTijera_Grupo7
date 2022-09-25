@@ -13,7 +13,7 @@ render (){
         <div className="menu">
             <div>
                 <div className="container">
-                    <img src={Home} alt=""/>
+                    <img src={Home} alt="" className="image"/>
                 </div>
             <section className="botones">
                 <div>
