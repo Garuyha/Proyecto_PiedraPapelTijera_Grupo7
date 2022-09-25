@@ -28,61 +28,17 @@ render (){
                  <p> {this.props.lu}  </p>
 
               </section>
-{/* 
+
 
      
-              <section className="informacion"> 
-
-              <img  src={avatar} width="150"/>
-              <h3> <strong> {this.props.nombre}</strong> </h3>
-              <h2> <strong> {this.props.dni}   </strong>  </h2>
-              <p> DNI:37304786 </p>
-              <p> LU:37304786  </p>
-
-               </section>
-
-
-
-
-
-             <section className="informacion"> 
-
-               < img  src={avatar} width="150"/>
-              <h3> <strong> {this.props.nombre} </strong> </h3>
-              <h2> <strong> Programadora </strong>   </h2>
-              <p> DNI:37304786 </p>
-              <p> LU:37304786  </p>
-
-            </section>
+              
 
           </div>
 
 
     
     
-    <div className="seccion2">
-
-
-            <section className="informacion"> 
-                < img  src={avatar} width="150"/>
-                <h3> <strong> {this.props.nombre}</strong> </h3>
-                <h2> <strong> Programador  </strong> </h2>
-                <p> DNI:37304786 </p>
-                <p> LU:37304786  </p>
-
-              </section>
-
-
-            <section className="informacion"> 
-               < img  src={avatar} width="150"/>
-               <h3> <strong> {this.props.nombre}</strong></h3>
-               <h2> <strong> Programadora   </strong></h2>
-               <p> DNI:37304786 </p>
-               <p> LU:37304786  </p>
-            </section> */}
-
-
-    </div>
+    
 
       
 

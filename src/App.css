@@ -86,20 +86,13 @@ body
     .seccion1
     {
      display: flex;
+     display: inline;
      flex-direction: row;
+     justify-content: space-around;
      margin-top: 10%;
-     gap: 100px;
+     gap: 10px;
      justify-content: center;
     }
-
-
-    .seccion2
-    {
-      display: flex;
-      justify-content: center;
-      gap: 164px;
-    }
-
 
 
     .derechos
