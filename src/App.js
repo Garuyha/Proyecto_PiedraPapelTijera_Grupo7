@@ -3,10 +3,11 @@ import Desarrolladores from './desarrolladores';
 import desarrolladores from './desarolladores.json';
 import FooterDesarrolladores from './footerDesarrolladores';
 
+
 function App() {
   return (
     <>
-    
+   
 {//desarrolladores && desarrolladores.map es para comprobar si los datos existen
   desarrolladores.desarrolladores && desarrolladores.desarrolladores.map( des =>   
 <Desarrolladores key={des.nombre}
@@ -16,6 +17,8 @@ lu={des.lu}
 ></Desarrolladores>  
   )
 }
+
+
 <FooterDesarrolladores/>
 
 

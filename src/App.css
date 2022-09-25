@@ -45,7 +45,7 @@ body
 
     width: 108% ;
     display: grid;
-    margin-left: 44%;
+    margin-left: 46%;
     margin-top: 2%;
     grid-template-columns: repeat(10,1fr);
     gap: 40px;
@@ -79,13 +79,16 @@ body
 
     }
 
-  
+  .fa:hover{
+ color: brown;
+  }
 
     .seccion1
     {
      display: flex;
-     margin-top: 11%;
-     gap: 164px;
+     flex-direction: row;
+     margin-top: 10%;
+     gap: 100px;
      justify-content: center;
     }
 

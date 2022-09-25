@@ -19,20 +19,20 @@ render (){
 
 
             <div className='contenedorboton'>
-      
+    
   
               <button class="boton uno"> <span>Inicio</span>   </button>
        
       
             </div>
 
-            <a href="#" class="fa fa-facebook"></a>
+    
+
+        <section className="derechos">
+        <a href="#" class="fa fa-facebook"></a>
 <a href="#" class="fa fa-twitter"></a>
 <a href="#" class="fa fa-whatsapp"></a>
 <a href="#" class="fa fa-instagram"></a>
-
-        <section className="derechos">
-
 
            <h4> © 2022 Mate Cebado Inc. | All rights reserved.  </h4>
 

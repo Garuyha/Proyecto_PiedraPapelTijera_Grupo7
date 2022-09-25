@@ -12,8 +12,54 @@ code {
     monospace;
 }
 
-.seccion1{
+
+.informacion{
   display: flex;
+  display: block;
   justify-content: center;
+  flex-direction: row;
+}
+
+.fa-facebook {
+  
+  color: black;
+  padding: 10px;
+  font-size: 300px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+
+}
+
+.fa-twitter {
+ 
+  color: black;
+  padding: 10px;
+  font-size: 300px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  
+}
+
+.fa-whatsapp {
+
+  color: black;
+  padding: 10px;
+  font-size: 300px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  
+}
+
+.fa-instagram {
+
+  color: black;
+  padding: 10px;
+  font-size: 300px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
   
 }
