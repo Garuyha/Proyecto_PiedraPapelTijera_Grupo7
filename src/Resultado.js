@@ -5,15 +5,15 @@ export const Resultado = (props) =>{
     
     
     if(props.jugador.derrota === props.maquina.eleccion && props.jugador.eleccion){
-        resultadoFinal = <>Resultado: Gana, el Jugador</>
+        resultadoFinal = <> Gana, el Jugador</>
     }else{
         if(props.maquina.derrota === props.jugador.eleccion && props.jugador.eleccion){
-            resultadoFinal = <>Resultado: Gana, la Máquina</>
+            resultadoFinal = <> Gana, la Máquina</>
         }else if(props.jugador.eleccion === props.maquina.eleccion && props.jugador.eleccion){
-            resultadoFinal = <>Resultado: Empate</>
+            resultadoFinal = <> Empate</>
         }
     }
     return (
-        <h1>{resultadoFinal}</h1>
+        <>{resultadoFinal}</>
     )
 }

@@ -34,23 +34,26 @@ export function Juego(){
     }
 
     return(
-        <div className = "Contenedor">
-            <Resultado jugador={eleccionJugador} maquina={eleccionMaquina}/>
-            <main>
-                <section>
+        <div className = "Contenedor">            
+            <h2 className = "resultado">
+                <Resultado jugador={eleccionJugador} maquina={eleccionMaquina}/>                             
+            </h2>            
+            <main className="tarjetaContenedor">
+                <section className="tarjetaJugador">
                     <div className="jugador">Jugador</div>
-                    <div className="eleccion">{eleccionJugador.eleccion}</div>
+                    <div className="eleccionJugador">{eleccionJugador.eleccion}</div>
+                    <div className = "opciones">
+                        {opciones.map((e,index)=><Opcion key={e=Math.random()} 
+                            elegir={elegirOpcion}
+                            valor = {opciones[index]}/>)}
+                    </div>
                 </section>
-                <section>
+                <section className = "tarjetaMaquina">
                     <div className="maquina">Maquina</div>
-                    <div className="eleccion">{eleccionMaquina.eleccion}</div>
+                    <div className="eleccionMaquina">{eleccionMaquina.eleccion}</div>
                 </section>
             </main>
-            <div className = "opciones">
-                {opciones.map((e,index)=><Opcion key={e=Math.random()} 
-                    elegir={elegirOpcion}
-                    valor = {opciones[index]}/>)}
-            </div>
+            <button className = "botonMenu">volver al menu</button>
         </div>
     );
 }
