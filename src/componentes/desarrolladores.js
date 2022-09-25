@@ -79,22 +79,14 @@ render (){
 
 
     </div>
-
-      
-
-
-
-
+<div className="btn">
             <div className='botones'>
       
-  
-              <button className="boton"> <Btn/>   </button>
+              <Btn/>
        
-      
             </div>
-            <a href="https://www.facebook.com/react/" className="fa fa-facebook"></a>
-            <a href="#" class="fa fa-twitter"></a>
-            <a href="#" className="fa fa-instagram"></a>
+            </div>
+
 
 </div>
 

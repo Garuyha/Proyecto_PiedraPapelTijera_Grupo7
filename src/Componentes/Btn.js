@@ -6,7 +6,7 @@ export default function Btn(){
   <div>
   <div>
     <button>
-    <Link to="/desarrolladores">Home</Link>
+    <Link to="/">Home</Link>
     </button>
   </div>
   <div>
@@ -16,7 +16,7 @@ export default function Btn(){
   </div>
   <div>
     <button>
-    <CustomLink to="/">Desarrolladores</CustomLink>
+    <CustomLink to="/desarrolladores">Desarrolladores</CustomLink>
     </button>
   </div>
   </div>

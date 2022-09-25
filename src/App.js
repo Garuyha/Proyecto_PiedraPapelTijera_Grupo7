@@ -13,8 +13,8 @@ function App() {
         Piedra, Papel o Tijera
       </header>
       <Routes>
-        <Route path="/desarrolladores" element={<Homes />} />
-        <Route path="/" element={<Desarrolladores />} />
+        <Route path="/" element={<Homes />} />
+        <Route path="/desarrolladores" element={<Desarrolladores />} />
       </Routes>
       <footer> 
        © 2022 Mate Cebado Inc. | All rights reserved.            
