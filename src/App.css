@@ -29,11 +29,11 @@
 }
 
 .Titulo{
-  font-size:90px;
+  font-size:70px;
   display: flex;
   flex-direction: row-reverse;
-  width: 500px;
-  height: 330px;
+  text-align: center;
+  height: 180px;
 }
 
 .jugador{
@@ -56,4 +56,12 @@ justify-content:end;
   flex-direction:initial;
   width: 150px;
   height: 150px;
+}
+
+#result{
+  text-align: center;
+}
+
+#result img{
+  width: 80%;
 }
