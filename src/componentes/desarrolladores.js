@@ -5,14 +5,7 @@ import avatar from './img/Avatar.png';
 
 
  class Desarrolladores extends React.Component{
-
-
 render (){
-
-
-
-    
-    
     return  <div>
 
 
@@ -101,15 +94,6 @@ render (){
 
 </div>
 
-    
-
-    
 }
-
-
-
-
-
-
 }
 export default Desarrolladores;
