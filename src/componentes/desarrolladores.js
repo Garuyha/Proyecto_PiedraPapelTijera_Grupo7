@@ -50,7 +50,7 @@ render (){
               <h2> <strong> Programadora </strong>   </h2>
               <p> DNI:37304786 </p>
               <p> LU:37304786  </p>
-              <p> Branch: Charo  </p>
+              <p> Branch: Charo/ChiaroCoure  </p>
               </div>
             </section>
 
