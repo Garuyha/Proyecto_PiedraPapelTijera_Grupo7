@@ -3,6 +3,12 @@ import Opcion from "./Opcion";
 import { Resultado } from "./Resultado";
 import './css/Juego.css';
 import Btn from "./Btn";
+import tijeraJugador from "./img/tijerasJugador.png";
+import tijeraMaquina from "./img/tijerasMaquina.png";
+import papelJugador from "./img/papelJugador.png";
+import papelMaquna from "./img/papelMaquina.png";
+import piedraJugador from "./img/piedraJugador.png";
+import piedraMaquina from "./img/piedraMaquina.png"
 
 export function Juego(){
     const[eleccionJugador,setEleccionJugador] = useState({});
@@ -11,15 +17,21 @@ export function Juego(){
     const opciones =[
         {
             eleccion: "piedra",
-            derrota: "tijera"
+            derrota: "tijera",
+            imgJugador: piedraJugador,
+            imgMaquina: piedraMaquina
         },
         {
             eleccion: "papel",
-            derrota: "piedra"
+            derrota: "piedra",
+            imgJugador: papelJugador,
+            imgMaquina: papelMaquna
         },
         {
             eleccion: "tijera",
-            derrota: "papel"
+            derrota: "papel",
+            imgJugador: tijeraJugador,
+            imgMaquina: tijeraMaquina
         }
     ]
 
@@ -42,7 +54,9 @@ export function Juego(){
             <main className="tarjetaContenedor">
                 <section className="tarjetaJugador">
                     <div className="jugador">Jugador</div>
-                    <div className="eleccionJugador">{eleccionJugador.eleccion}</div>
+                    <div className="eleccionJugador">
+                        <img className="imagenSeleccion" src={eleccionJugador.imgJugador} alt={eleccionJugador.eleccion}/>
+                    </div>
                     <div className = "opciones">
                         {opciones.map((e,index)=><Opcion key={e=Math.random()} 
                             elegir={elegirOpcion}
@@ -51,7 +65,9 @@ export function Juego(){
                 </section>
                 <section className = "tarjetaMaquina">
                     <div className="maquina">Maquina</div>
-                    <div className="eleccionMaquina">{eleccionMaquina.eleccion}</div>
+                    <div className="eleccionMaquina">
+                        <img className="imagenSeleccion" src={eleccionMaquina.imgMaquina} alt={eleccionMaquina.eleccion}/>                        
+                    </div>
                 </section>
             </main>
             <footer className="btn">
