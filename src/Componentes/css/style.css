@@ -74,7 +74,7 @@ body{
     background: rgb(255, 255, 255);
     box-shadow: 20px 15px 0px rgba(168, 103, 89, 0.7);
     border-radius: 10px;
-    height: 370px;
+    height: 450px;
     width: 250px;
     text-align: center;
 }
@@ -108,6 +108,11 @@ body{
         justify-content: space-around;
         margin: 50px;
     }
+    
+    .imag{
+        width: 170px;
+        height: 170px;
+        border-radius: 50px;
+    }
 
-    /* Trilogia */
     
