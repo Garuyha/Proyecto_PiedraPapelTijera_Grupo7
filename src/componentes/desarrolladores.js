@@ -1,12 +1,14 @@
 import React from "react";
+import Bootstrap from "react-bootstrap"
 import Btn from "./Btn";
 import './css/style.css'
 import avatar from './img/Avatar.png';
+import Container from "react-bootstrap";
 
 
  class Desarrolladores extends React.Component{
 render (){
-    return  <div>
+    return  <Container>
 
 
           <div className="seccion1">
@@ -87,7 +89,7 @@ render (){
             </div>
 
 
-</div>
+</Container>
 
 }
 }
