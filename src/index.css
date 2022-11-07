@@ -21,21 +21,23 @@ code {
   flex-direction: row;
 }
 
+
 .fa-facebook {
   
   color: black;
-  padding: 10px;
+  padding: 20px;
   font-size: 300px;
   width: 30px;
   text-align: center;
   text-decoration: none;
+
 
 }
 
 .fa-twitter {
  
   color: black;
-  padding: 10px;
+  padding: 20px;
   font-size: 300px;
   width: 30px;
   text-align: center;
@@ -46,7 +48,7 @@ code {
 .fa-whatsapp {
 
   color: black;
-  padding: 10px;
+  padding: 20px;
   font-size: 300px;
   width: 30px;
   text-align: center;
@@ -57,7 +59,7 @@ code {
 .fa-instagram {
 
   color: black;
-  padding: 10px;
+  padding: 20px;
   font-size: 300px;
   width: 30px;
   text-align: center;
